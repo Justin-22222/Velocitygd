@@ -17,4 +17,5 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+    - name: try to see the build file
       run: ls -l
