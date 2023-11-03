@@ -19,3 +19,5 @@ jobs:
       run: ./gradlew build
     - name: try to see the build file
       run: ls -l
+    - name: to get subdir files
+      run: ls -l build/
